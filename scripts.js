@@ -1,56 +1,5 @@
 $(document).ready(function(){
-    var stuff = {
-        "toast":[
-            {"image": "img/toast1.jpg"},
-            {"image": "img/toast2.jpg"},
-            {"image": "img/toast3.jpg"},
-            {"image": "img/toast4.jpg"}
-        ],
-        "run":[
-            {"image": "img/run1.jpg"},
-            {"image": "img/run2.jpg"},
-            {"image": "img/run3.jpg"},
-            {"image": "img/run4.jpg"}
-        ],
-        "burn":[
-            {"image": "img/burn1.jpg"},
-            {"image": "img/burn2.jpg"},
-            {"image": "img/burn3.jpg"},
-            {"image": "img/burn4.jpg"}
-        ],
-        "squeeze":[
-            {"image": "img/squeeze1.jpg"},
-            {"image": "img/squeeze2.jpg"},
-            {"image": "img/squeeze3.jpg"},
-            {"image": "img/squeeze4.jpg"}
-        ],
-        "sleep":[
-            {"image": "img/sleep1.jpg"},
-            {"image": "img/sleep2.jpg"},
-            {"image": "img/sleep3.jpg"},
-            {"image": "img/sleep4.jpg"}
-        ],
-        "bolt":[
-            {"image": "img/bolt1.jpg"},
-            {"image": "img/bolt2.jpg"},
-            {"image": "img/bolt3.jpg"},
-            {"image": "img/bolt4.jpg"}
-        ],
-        "drive":[
-            {"image": "img/drive1.jpg"},
-            {"image": "img/drive2.jpg"},
-            {"image": "img/drive3.jpg"},
-            {"image": "img/drive4.jpg"}
-        ],
-        "spin":[
-            {"image": "img/spin1.jpg"},
-            {"image": "img/spin2.jpg"},
-            {"image": "img/spin3.jpg"},
-            {"image": "img/spin4.jpg"}
-        ]
-    }
-
-    var words = Object.keys(stuff);
+    var words = ['toast','run','burn','squeeze','sleep','bolt','drive','spin'];
     var currentRound = 0;
     var randomWord;
 
